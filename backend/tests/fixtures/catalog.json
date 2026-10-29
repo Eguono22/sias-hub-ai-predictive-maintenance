@@ -1,0 +1,78 @@
+{
+  "machines": [
+    {
+      "id": "extruder-01",
+      "name": "Extruder 01",
+      "type": "extruder",
+      "line": "Line A",
+      "zone": "Melt zone",
+      "asset_class": "primary_process",
+      "location": "Production Bay 1",
+      "status": "online",
+      "baseline": {
+        "temperature_c": 184.0,
+        "pressure_bar": 122.0,
+        "vibration_mm_s": 4.2,
+        "power_kw": 62.0,
+        "flow_l_min": 180.0,
+        "motor_speed_rpm": 845.0
+      }
+    },
+    {
+      "id": "coating-01",
+      "name": "Coating Line 01",
+      "type": "coating",
+      "line": "Line B",
+      "zone": "Coating booth",
+      "asset_class": "surface_finishing",
+      "location": "Coating Hall",
+      "status": "online",
+      "baseline": {
+        "temperature_c": 68.0,
+        "pressure_bar": 44.0,
+        "vibration_mm_s": 2.9,
+        "power_kw": 38.0,
+        "flow_l_min": 320.0,
+        "motor_speed_rpm": 610.0,
+        "coating_thickness_um": 128.0,
+        "viscosity_cP": 2150.0
+      }
+    },
+    {
+      "id": "dryer-01",
+      "name": "Dryer 01",
+      "type": "dryer",
+      "line": "Line B",
+      "zone": "Thermal curing",
+      "asset_class": "process_utility",
+      "location": "Curing Zone",
+      "status": "online",
+      "baseline": {
+        "temperature_c": 88.0,
+        "pressure_bar": 31.0,
+        "vibration_mm_s": 3.1,
+        "power_kw": 46.0,
+        "flow_l_min": 260.0,
+        "motor_speed_rpm": 740.0
+      }
+    },
+    {
+      "id": "compressor-01",
+      "name": "Compressor 01",
+      "type": "compressor",
+      "line": "Utilities",
+      "zone": "Air supply",
+      "asset_class": "utility",
+      "location": "Utility Room",
+      "status": "online",
+      "baseline": {
+        "temperature_c": 76.0,
+        "pressure_bar": 86.0,
+        "vibration_mm_s": 3.8,
+        "power_kw": 52.0,
+        "flow_l_min": 410.0,
+        "motor_speed_rpm": 980.0
+      }
+    }
+  ]
+}

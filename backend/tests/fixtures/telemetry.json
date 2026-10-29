@@ -1,0 +1,64 @@
+{
+  "samples": [
+    {
+      "elapsed": 0,
+      "timestamp": "2026-10-29T20:35:28.707205+00:00",
+      "readings": [
+        {
+          "timestamp": "2026-10-29T20:35:28.707205+00:00",
+          "machine_id": "extruder-01",
+          "scenario": "normal",
+          "machine_type": "extruder",
+          "temperature_c": 184.0,
+          "pressure_bar": 122.0,
+          "vibration_mm_s": 4.2,
+          "power_kw": 62.0,
+          "flow_l_min": 180.0,
+          "motor_speed_rpm": 845.0,
+          "health_score": 100.0
+        },
+        {
+          "timestamp": "2026-10-29T20:35:28.707205+00:00",
+          "machine_id": "coating-01",
+          "scenario": "normal",
+          "machine_type": "coating",
+          "temperature_c": 68.0,
+          "pressure_bar": 44.0,
+          "vibration_mm_s": 2.9,
+          "power_kw": 38.0,
+          "flow_l_min": 320.0,
+          "motor_speed_rpm": 610.0,
+          "health_score": 100.0,
+          "coating_thickness_um": 128.0,
+          "viscosity_cP": 2150.0
+        },
+        {
+          "timestamp": "2026-10-29T20:35:28.707205+00:00",
+          "machine_id": "dryer-01",
+          "scenario": "normal",
+          "machine_type": "dryer",
+          "temperature_c": 88.0,
+          "pressure_bar": 31.0,
+          "vibration_mm_s": 3.1,
+          "power_kw": 46.0,
+          "flow_l_min": 260.0,
+          "motor_speed_rpm": 740.0,
+          "health_score": 100.0
+        },
+        {
+          "timestamp": "2026-10-29T20:35:28.707205+00:00",
+          "machine_id": "compressor-01",
+          "scenario": "normal",
+          "machine_type": "compressor",
+          "temperature_c": 76.0,
+          "pressure_bar": 86.0,
+          "vibration_mm_s": 3.8,
+          "power_kw": 52.0,
+          "flow_l_min": 410.0,
+          "motor_speed_rpm": 980.0,
+          "health_score": 100.0
+        }
+      ]
+    }
+  ]
+}

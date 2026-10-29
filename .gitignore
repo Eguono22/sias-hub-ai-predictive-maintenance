@@ -28,3 +28,7 @@ __pycache__/
 .pytest_cache/
 *.pyc
 *.tsbuildinfo
+
+# Local telemetry storage
+backend/data/
+.vercel/

@@ -1,0 +1,22 @@
+# Apply through Render Blueprints after reviewing the selected paid plan and disk.
+services:
+  - type: web
+    name: sias-predictive-maintenance-api
+    runtime: python
+    rootDir: backend
+    plan: 1c-2g
+    numInstances: 1
+    buildCommand: pip install "torch>=2.2,<3" --index-url https://download.pytorch.org/whl/cpu && pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /health
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.11
+      - key: DATABASE_PATH
+        value: /var/data/maintenance.db
+      - key: CORS_ORIGINS
+        sync: false
+    disk:
+      name: maintenance-data
+      mountPath: /var/data
+      sizeGB: 1
