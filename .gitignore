@@ -17,3 +17,14 @@ sized/
 thumbs/
 _thumbs/
 */expressionengine/cache/*
+
+# Application artifacts
+node_modules/
+.next/
+.env
+.env.local
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+*.tsbuildinfo
